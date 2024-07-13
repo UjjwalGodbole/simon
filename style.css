@@ -1,0 +1,112 @@
+/* font-family: "Playwrite CU", cursive;
+font-family: "Montserrat", sans-serif; */
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid  #4d4d4d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0px 100px;
+    font-family: "Playwrite CU", cursive;
+}
+.name{
+    height: 50px;
+    width: 50%;
+    color: rgb(227, 219, 219);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255,.2);
+    font-size: 1.3rem;
+    border-radius: 2.5rem;
+    
+}
+main{
+    height: 90vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+.firstpage{
+    height: 90vh;
+    width: 100%;
+    background-image: url(/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secondpage{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/bg2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide{
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0,.6);
+    padding:50px 100px;
+    box-sizing: border-box;
+    color: rgb(181, 174, 174);
+}
+.info{
+    width: 50%;
+    height: 80vh;
+}
+.info ol li{
+    font-size: 20px;
+    margin: 15px
+}
+ span{
+     font-size: 26px;
+     color: rgb(255, 42, 0);
+}
+.info h1{
+    font-family:"Playwrite CU", cursive ;
+    text-align: center;
+    
+}
+.slide1{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0,.8);
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+.slide1 h1{
+    font-family:"Playwrite CU", cursive; 
+    margin-top: 0px;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+    border: 5px solid black;
+    margin: 2.5rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.yellow{
+    background-color: rgba(249, 155, 69,.4);
+}
+.red{
+    background-color: rgba(217, 89, 128,.4);
+}
+.green{
+    background-color: rgba(99, 170, 192,.4);
+}
+.purple{
+    background-color: rgba(129, 159, 249,.4);
+}
+.flash{
+    background-color: rgba(255, 255, 255, 0.5);
+}

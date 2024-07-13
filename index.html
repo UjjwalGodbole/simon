@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Simon Game</title>
+</head>
+<body>
+        <nav>
+            <div class="name"><span>S</span>imon Game</div>
+        </nav>
+        <main>
+            <div class="firstpage">
+                <div class="slide">
+                     <div class="info">
+                        <h1>Rules to play</h1>
+                        <ol>
+                            <li><span>Start the Game:</span> Press any key on your keyboard to begin the game. The game will display the first color sequence.</li>
+                            <li><span>Watch the Sequence:</span> Carefully watch the sequence of colors displayed. The game will show a sequence of lights that you need to remember.</li>
+                            <li><span>Repeat the Sequence:</span> Click on the colored boxes in the same order as the sequence shown. Each round, the sequence will get longer by one additional color.</li>
+                            <li><span>Follow the Order:</span> Ensure you click the colors in the exact order as presented. If you click a color out of order, the game will end.</li>
+                            <li><span>Challenge Your Memory:</span> Try to remember and repeat the longest sequence possible without making a mistake. The goal is to achieve the highest sequence length you can!</li>
+                        </ol>
+                     </div>
+                </div>
+            </div>
+            <div class="secondpage">
+                  <div class="slide1">
+                    <h1><span>S</span>imon Game</h1>
+                    <h2>Press any key to start the game</h2>
+                    <div class="btn-container">
+                        <div class="line-one">
+                        <div class="btn red" id="red"></div>
+                        <div class="btn yellow" id="yellow"></div>
+                    </div>
+                    <div class="line-two">
+                        <div class="btn green" id="green"></div>
+                        <div class="btn purple" id="purple"></div>
+                    </div>
+                   <script src="/simon.js"></script>
+                  </div>
+            </div>
+        </main>
+        <script src="/app.js"></script>
+</body>
+</html>
